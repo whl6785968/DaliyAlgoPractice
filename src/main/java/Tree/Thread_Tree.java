@@ -28,7 +28,12 @@ public class Thread_Tree<T> {
     public void inThreading(){
         inThreading(root);
     }
+    //边中序遍历 边建立线索
+    //当遍历到某个节点时，若该节点的前驱不为null且前驱的右孩子为null，则将前驱节点的右孩子设置为该节点
+    //即记录每个节点的前驱节点，对于某节点的后继节点，找到再赋予
 
+    //ltag为true表示其左孩子为该节点的前驱节点
+    //rtag为true表示其右孩子为该节点的后继节点
     public void inThreading(BiThTree p){
         if(p!=null){
             inThreading(p.lchid);
