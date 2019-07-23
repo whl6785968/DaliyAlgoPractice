@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="949d274f-e87d-4197-b9c1-a2a98b9d696e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter1/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter1/LinkedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter1/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter1/SumFast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter1/UF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter1/WeightQuickUF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter1/FixedCapacityStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter1/FixedCapacityStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,7 +18,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +52,8 @@
         <option value="$PROJECT_DIR$/src/main/java/chapter1/Bag.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter1/TwoSumFast.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter1/SumFast.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chapter1/UF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chapter1/WeightQuickUF.java" />
       </list>
     </option>
   </component>
@@ -88,29 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -147,15 +123,6 @@
             <path>
               <item name="algo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="algo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="chapter1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="start" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="algo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="algo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
@@ -184,6 +151,29 @@
               <item name="algo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="generated-sources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -309,7 +299,8 @@
       <workItem from="1563451117741" duration="5746000" />
       <workItem from="1563535457854" duration="1702000" />
       <workItem from="1563539815950" duration="3315000" />
-      <workItem from="1563793076435" duration="6341000" />
+      <workItem from="1563793076435" duration="6392000" />
+      <workItem from="1563881451586" duration="4292000" />
     </task>
     <task id="LOCAL-00001" summary="Start learn algs4">
       <created>1563456826704</created>
@@ -332,16 +323,23 @@
       <option name="project" value="LOCAL" />
       <updated>1563543099780</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="currently learning page 149">
+      <created>1563802515430</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563802515430</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31525000" />
+    <option name="totallyTimeSpent" value="35868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.30014327" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.30444127" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.2679083" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -378,7 +376,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start learn algs4" />
     <MESSAGE value="currently learning page 85" />
-    <option name="LAST_COMMIT_MESSAGE" value="currently learning page 85" />
+    <MESSAGE value="currently learning page 149" />
+    <option name="LAST_COMMIT_MESSAGE" value="currently learning page 149" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -569,6 +568,20 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/UF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/WeightQuickUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
