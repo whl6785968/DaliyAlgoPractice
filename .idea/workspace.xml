@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="949d274f-e87d-4197-b9c1-a2a98b9d696e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter1/UF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter1/WeightQuickUF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter2/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,7 +17,22 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chapter2/Sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="346">
+              <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#97#98#0" expanded="true" />
+                <element signature="e#132#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/main/java/chapter1/SumFast.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter1/UF.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter1/WeightQuickUF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chapter2/Sort.java" />
       </list>
     </option>
   </component>
@@ -118,7 +133,7 @@
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="chapter1" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="chapter2" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="algo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -156,7 +171,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,6 +193,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Stats">
+  <component name="RunManager" selected="Application.Sort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter1.start.BinarySearch" />
       <module name="algo" />
@@ -243,6 +258,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2.Sort" />
+      <module name="algo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Stats" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter1.Stats" />
       <module name="algo" />
@@ -256,26 +284,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Thread_Tree" />
-      <module name="algo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sort" />
         <item itemvalue="Application.Stats" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.FunctionDraw" />
         <item itemvalue="Application.FixedCapacityStackOfStringTest" />
-        <item itemvalue="Application.Thread_Tree" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +315,8 @@
       <workItem from="1563535457854" duration="1702000" />
       <workItem from="1563539815950" duration="3315000" />
       <workItem from="1563793076435" duration="6392000" />
-      <workItem from="1563881451586" duration="4292000" />
+      <workItem from="1563881451586" duration="4424000" />
+      <workItem from="1564054274764" duration="6306000" />
     </task>
     <task id="LOCAL-00001" summary="Start learn algs4">
       <created>1563456826704</created>
@@ -330,16 +346,24 @@
       <option name="project" value="LOCAL" />
       <updated>1563802515430</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="currently learning page 166">
+      <created>1563886414356</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563886414356</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35868000" />
+    <option name="totallyTimeSpent" value="42306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.30444127" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.30873924" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.2679083" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -348,7 +372,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32839838" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32839838" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39838493" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,7 +380,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35531628" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35531628" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32839838" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -377,7 +401,8 @@
     <MESSAGE value="Start learn algs4" />
     <MESSAGE value="currently learning page 85" />
     <MESSAGE value="currently learning page 149" />
-    <option name="LAST_COMMIT_MESSAGE" value="currently learning page 149" />
+    <MESSAGE value="currently learning page 166" />
+    <option name="LAST_COMMIT_MESSAGE" value="currently learning page 166" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -582,6 +607,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter2/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="84" column="13" lean-forward="true" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
