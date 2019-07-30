@@ -4,6 +4,7 @@ import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.Stopwatch;
 
 public class Sort {
+    private static Comparable[] aux;
     private static boolean less(Comparable v,Comparable w){
         return v.compareTo(w)<0;
     }
@@ -87,6 +88,111 @@ public class Sort {
         }
     }
 
+    public static void merge(Comparable[] a,int lo,int mid,int hi){
+        int i = lo;
+        int j = mid+1;
+
+        for(int k = lo;k<=hi;k++){
+            aux[k] = a[k];
+        }
+
+        for(int k = lo;k<=hi;k++){
+            if(i>mid){
+                a[k] = aux[j++];
+            }
+            else if(j>hi) a[k] = aux[i++];
+            else if(less(aux[j],aux[i])) a[k] = aux[j++];
+            else a[k] = aux[i++];
+        }
+    }
+
+    public static void sort(Comparable[] a){
+        aux= new Comparable[a.length];
+        sort(a,0,a.length-1);
+
+    }
+    //1/2NlgN-NlgN compare
+    //the time merge sort costs and NlgN in the direct ratio
+    //from top to bottom
+    public static void sort(Comparable[] a,int lo,int hi){
+        if(lo>=hi) return;
+        int mid = lo+(hi-lo)/2;
+        sort(a, lo, mid);
+        sort(a,mid+1,hi);
+        //the min of right side greater than the max of left,skip merge
+        if(less(a[mid],a[mid+1])) return;
+        merge(a,lo,mid,hi);
+    }
+
+    //from bottom to top
+    public static void sort2(Comparable[] a){
+        int N = a.length;
+        aux = new Comparable[N];
+        //sz is size of array
+        //the process is like 1 1=2 ,2 2=4,4 4=8
+        //the size of array is doubling until complete sort
+        for(int sz=1;sz<N;sz=sz+sz){
+            for (int lo=0;lo<N-sz;lo+=sz+sz){
+                merge(a,lo,lo+sz-1,Math.min(lo+sz+sz-1,(N-1)));
+            }
+        }
+    }
+    public static void quick(Comparable[] a){
+        StdRandom.shuffle(a);
+//        quick(a,0,a.length-1);
+        quick3Way(a,0,a.length-1);
+    }
+    public static void quick(Comparable[] a,int lo,int hi){
+        if(lo >= hi) return;
+        //make the element at left side of split element less than split element
+        //make the element at right side of split element greater than split element
+        int j = partition(a,lo,hi);
+        quick(a,lo,j-1);
+        quick(a,j+1,hi);
+    }
+
+    public static int partition(Comparable[] a,int lo,int hi){
+        int i = lo;
+        int j = hi + 1;
+
+        Comparable v = a[lo];
+        while (true){
+            while (less(a[++i],v)){
+                if(i == hi) {
+                    break;
+                }
+            }
+
+            while (less(v,a[--j])){
+                if(j == lo) {
+                    break;
+                }
+            }
+
+            if(i >= j) break;
+
+            exch(a,i,j);
+        }
+
+        exch(a,lo,j);
+        return j;
+    }
+
+    public static void quick3Way(Comparable[] a,int lo,int hi){
+        if(lo>=hi) return;
+        int lt = lo,i = lo + 1,gt = hi;
+        Comparable v = a[lo];
+        while (i <= gt){
+            int cmp = a[i].compareTo(v);
+            if(cmp<0) exch(a,lt++,i++);
+            else if(cmp>0) exch(a,i,gt--);
+            else i++;
+        }
+
+        quick3Way(a,lo,lt-1);
+        quick3Way(a,gt+1,hi);
+    }
+
     public static void main(String[] args) {
 //        String alg1 = args[0];
 //        String alg2 = args[1];
@@ -104,9 +210,11 @@ public class Sort {
 //        System.out.println("v3 = " + v3);
 //        System.out.println("Insertion is " +v2/v1 + " faster than Selection");
 //
-        Comparable[] a = {3,7,2,5,8,4,1};
-        shell(a);
+        Comparable[] a = {3,7,2,5,8,4,1,3};
+//        shell(a);
 //        insertion(a);
+//        sort2(a);
+        quick(a);
         show(a);
     }
 
