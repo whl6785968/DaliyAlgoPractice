@@ -34,6 +34,7 @@ public class Thread_Tree<T> {
 
     //ltag为true表示其左孩子为该节点的前驱节点
     //rtag为true表示其右孩子为该节点的后继节点
+    //先遍历到前驱设置其前驱，遍历到其后继设置其后继
     public void inThreading(BiThTree p){
         if(p!=null){
             inThreading(p.lchid);
