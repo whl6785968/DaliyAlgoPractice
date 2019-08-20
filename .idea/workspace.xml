@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="949d274f-e87d-4197-b9c1-a2a98b9d696e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter3/RBT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/BST.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Tree/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="153" column="18" lean-forward="true" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
+            <state relative-caret-position="494">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
               <folding>
                 <element signature="e#948#949#0" expanded="true" />
                 <element signature="e#990#991#0" expanded="true" />
@@ -31,13 +31,11 @@
                 <element signature="e#1738#1739#0" expanded="true" />
                 <element signature="e#1780#1781#0" expanded="true" />
                 <element signature="e#2111#2112#0" expanded="true" />
-                <element signature="e#2141#2142#0" expanded="true" />
-                <element signature="e#2456#2457#0" expanded="true" />
-                <element signature="e#2484#2485#0" expanded="true" />
+                <element signature="e#2152#2153#0" expanded="true" />
                 <element signature="e#2853#2854#0" expanded="true" />
-                <element signature="e#2887#2888#0" expanded="true" />
+                <element signature="e#2895#2896#0" expanded="true" />
                 <element signature="e#3139#3140#0" expanded="true" />
-                <element signature="e#3169#3170#0" expanded="true" />
+                <element signature="e#3182#3183#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,6 +46,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chapter3/RBT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,6 +105,7 @@
         <option value="$PROJECT_DIR$/src/main/java/chapter3/BinarySearchST.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tree/Thread_Tree.java" />
         <option value="$PROJECT_DIR$/src/main/java/Tree/BST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chapter3/RBT.java" />
       </list>
     </option>
   </component>
@@ -128,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,7 +207,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,7 +342,8 @@
       <workItem from="1565694578369" duration="3642000" />
       <workItem from="1565780676229" duration="6858000" />
       <workItem from="1565867484315" duration="6319000" />
-      <workItem from="1565954828158" duration="5794000" />
+      <workItem from="1565954828158" duration="6072000" />
+      <workItem from="1566300370265" duration="4924000" />
     </task>
     <task id="LOCAL-00001" summary="Start learn algs4">
       <created>1563456826704</created>
@@ -396,17 +408,24 @@
       <option name="project" value="LOCAL" />
       <updated>1565873997557</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="currently learning page 282">
+      <created>1565960744119</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1565960744119</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80951000" />
+    <option name="totallyTimeSpent" value="86153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.24641834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.2679083" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -449,7 +468,8 @@
     <MESSAGE value="currently learning page 208" />
     <MESSAGE value="currently learning page 260" />
     <MESSAGE value="currently learning page 271" />
-    <option name="LAST_COMMIT_MESSAGE" value="currently learning page 271" />
+    <MESSAGE value="currently learning page 282" />
+    <option name="LAST_COMMIT_MESSAGE" value="currently learning page 282" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -685,10 +705,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter3/FrequencyCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Tree/BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="153" column="18" lean-forward="true" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
+        <state relative-caret-position="494">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
           <folding>
             <element signature="e#948#949#0" expanded="true" />
             <element signature="e#990#991#0" expanded="true" />
@@ -697,21 +724,22 @@
             <element signature="e#1738#1739#0" expanded="true" />
             <element signature="e#1780#1781#0" expanded="true" />
             <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2141#2142#0" expanded="true" />
-            <element signature="e#2456#2457#0" expanded="true" />
-            <element signature="e#2484#2485#0" expanded="true" />
+            <element signature="e#2152#2153#0" expanded="true" />
             <element signature="e#2853#2854#0" expanded="true" />
-            <element signature="e#2887#2888#0" expanded="true" />
+            <element signature="e#2895#2896#0" expanded="true" />
             <element signature="e#3139#3140#0" expanded="true" />
-            <element signature="e#3169#3170#0" expanded="true" />
+            <element signature="e#3182#3183#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter3/FrequencyCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter3/RBT.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        <state relative-caret-position="356">
+          <caret line="98" column="12" selection-start-line="98" selection-start-column="12" selection-end-line="98" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
