@@ -45,6 +45,10 @@ public class RBT<Key extends Comparable<Key>, Value> {
         else return x.N;
     }
 
+    public boolean isEmpty(){
+        return root.N == 0;
+    }
+
     public Node rotateLeft(Node h){
         Node x = h.right;
         h.right = x.left;
@@ -67,10 +71,33 @@ public class RBT<Key extends Comparable<Key>, Value> {
         return x;
     }
 
-    public void filpColor(Node h){
+    public Key min(){
+        return min(root).key;
+    }
+
+    public Node min(Node x){
+        if(x.left == null) return x;
+        else return min(x.left);
+    }
+
+    public void flipColor(Node h){
         h.color = RED;
         h.left.color = BLACK;
         h.right.color = BLACK;
+    }
+
+    public Value get(Key key){
+        return get(root,key);
+    }
+
+    public Value get(Node x,Key key){
+        if(x==null) return null;
+        else {
+            int cmp = key.compareTo(x.key);
+            if(cmp<0) return get(x.left,key);
+            else if(cmp>0) return get(x.right,key);
+            else return x.value;
+        }
     }
 
     public void put(Key key,Value val){
@@ -97,7 +124,7 @@ public class RBT<Key extends Comparable<Key>, Value> {
             h = rotateLeft(h);
         }
         if(isRed(h.left) && isRed(h.right)){
-            filpColor(h);
+            flipColor(h);
         }
 
         h.N = size(h.left) + size(h.right) + 1;
@@ -105,7 +132,138 @@ public class RBT<Key extends Comparable<Key>, Value> {
         return h;
     }
 
-    public static void main(String[] args) {
+    public Node balance(Node h){
+        if(isRed(h.right)){
+            h = rotateLeft(h);
+        }
+        if(isRed(h.left) && isRed(h.left.left)){
+            h = rotateRight(h);
+        }
+        if(!isRed(h.left) && isRed(h.right)){
+            h = rotateLeft(h);
+        }
+        if(isRed(h.left) && isRed(h.right)){
+            flipColor(h);
+        }
 
+        h.N = size(h.left) + size(h.right) + 1;
+
+        return h;
+    }
+
+    private Node moveRedLeft(Node h){
+        flipColor(h);
+        if(isRed(h.right.left)){
+            h.right = rotateRight(h.right);
+            h = rotateLeft(h);
+        }
+
+        return h;
+    }
+
+    public void deleteMin(){
+        if(!isRed(root.left) && !isRed(root.right)){
+            root.color = RED;
+        }
+        root = deleteMin(root);
+        if(!isEmpty()){
+            root.color = BLACK;
+        }
+    }
+
+    public Node deleteMin(Node h){
+        if(h.left == null){
+            return null;
+        }                                                //                b
+        if(!isRed(h.left) && !isRed(h.left.left)){       //               / \
+            h = moveRedLeft(h);                          //              a   d
+        }                                                //             / \ / \
+        h.left = deleteMin(h.left);                      //                c   e
+        return balance(h);
+    }
+
+    private Node moveRedRight(Node h){
+        flipColor(h);
+        if(!isRed(h.left.left)){
+            h = rotateRight(h);
+        }
+
+        return h;
+    }
+
+    public void deleteMax(){
+        if(!isRed(root.left) && !isRed(root.right)){
+            root.color = RED;
+        }
+        root = deleteMax(root);
+
+        if(!isEmpty()){
+            root.color = BLACK;
+        }
+    }
+
+    public Node deleteMax(Node h){
+        if(isRed(h.left)){
+            h = rotateRight(h);
+        }
+        if(h.right == null){
+            return null;
+        }
+        if(!isRed(h.right) && !isRed(h.right.left)){
+            h = moveRedRight(h);
+        }
+
+        h.right = deleteMax(h.right);
+
+        return balance(h);
+    }
+
+    public void delete(Key key){
+        if(!isRed(root.left) && !isRed(root.right)){
+            root.color = RED;
+        }
+        root = delete(root,key);
+
+        if(!isEmpty()){
+            root.color = BLACK;
+        }
+    }
+
+    public Node delete(Node h,Key key){
+        if(key.compareTo(h.key)<0){
+            if(!isRed(h.left) && !isRed(h.left.left)){
+                h = moveRedLeft(h);
+            }
+            h.left = delete(h.left,key);
+        }
+        else {
+            if(isRed(h.left)){
+                h = moveRedRight(h);
+            }
+            if(key.compareTo(h.key) == 0 && h.right == null){
+                return null;
+            }
+            if(!isRed(h.right) && !isRed(h.left.right)){
+                h = moveRedRight(h);
+            }
+            if(key.compareTo(h.key) == 0){
+                h.value = get(h.right,min(h.right).key);
+                h.key = min(h.right).key;
+                h.right = deleteMin(h.right);
+            }
+            else {
+                h.right = delete(h.right,key);
+            }
+        }
+
+        return balance(h);
+    }
+
+    public static void main(String[] args) {
+        Integer a = 20;
+        String s = Integer.toBinaryString(a);
+        int i = Integer.numberOfLeadingZeros(20);
+        System.out.println(i);
+        System.out.println(s);
     }
 }
