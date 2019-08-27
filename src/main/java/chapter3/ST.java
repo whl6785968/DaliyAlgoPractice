@@ -2,15 +2,27 @@ package chapter3;
 
 import edu.princeton.cs.algs4.StdIn;
 
+import java.lang.ref.PhantomReference;
 import java.util.Iterator;
+import java.util.NoSuchElementException;
+import java.util.TreeMap;
 
 public class ST<Key extends Comparable<Key>,Value> {
-    public void put(Key key,Value val){
+    private TreeMap<Key,Value> st;
 
+    public ST(){
+        st = new TreeMap<Key, Value>();
+    }
+
+    public void put(Key key,Value val){
+        if (key == null) throw new IllegalArgumentException("calls put() with null key");
+        if (val == null) st.remove(key);
+        else st.put(key,val);
     }
 
     public Value get(Key key){
-        return null;
+        if (key == null) throw new IllegalArgumentException("calls get() with null key");
+        return st.get(key);
     }
 
     public void delete(Key key){
@@ -26,27 +38,26 @@ public class ST<Key extends Comparable<Key>,Value> {
     }
 
     public int size(){
-        return 0;
+        return st.size();
     }
 
     public int size(int lo,int hi){
         return 0;
     }
 
-    public Iterator<Key> keys(){
-        return null;
+    public Iterable<Key> keys(){
+        return st.keySet();
     }
 
-    public Iterator<Key> keys(int lo,int hi){
-        return null;
-    }
 
     public Key min(){
-        return null;
+        if (isEmpty()) throw new NoSuchElementException("calls max() with empty symbol table");
+        return st.firstKey();
     }
 
     public Key max(){
-        return null;
+        if (isEmpty()) throw new NoSuchElementException("calls max() with empty symbol table");
+        return st.lastKey();
     }
 
     public Key floor(Key key){
