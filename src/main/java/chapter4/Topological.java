@@ -1,17 +1,21 @@
 package chapter4;
-
-import edu.princeton.cs.algs4.Digraph;
-
+//it can be topologically sorted when a directed graph is DAG.
 public class Topological {
-    public Topological(Digraph G){
+    private Iterable<Integer> order;
 
+    public Topological(DiGraph G){
+        DirectedCycle directedCycle = new DirectedCycle(G);
+        if(!directedCycle.hasCycle()){
+            DepthFirstOrder depthFirstOrder = new DepthFirstOrder(G);
+            order = depthFirstOrder.reversePost();
+        }
     }
 
     public boolean isDAG(){
-        return false;
+        return order != null;
     }
 
     public Iterable<Integer> order(){
-        return null;
+        return order;
     }
 }
