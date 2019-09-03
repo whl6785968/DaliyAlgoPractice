@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="949d274f-e87d-4197-b9c1-a2a98b9d696e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter4/DepthFirstOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter4/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter4/EdgeWeightGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter4/KosarajuSCC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter4/TransitiveClosure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter4/LazyPrimMST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter4/PrimMST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter4/DirectedCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter4/DirectedCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chapter4/Topological.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter4/Topological.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,31 +25,52 @@
             <state relative-caret-position="198">
               <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
               <folding>
-                <element signature="e#300#301#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
                 <element signature="e#347#348#0" expanded="true" />
                 <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/EdgeWeightGraph.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+              <folding>
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#648#649#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/LazyPrimMST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/EdgeWeightGraph.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/algs4-data/tinyEWG.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-              <folding>
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#392#393#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#715#721#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/PrimMST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2">
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -79,8 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Tree/Binary_Tree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FixedCapacityStackOfStrings.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/FixedCapacityStackOfStringTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter1/draw/FunctionDraw.java" />
@@ -130,6 +144,8 @@
         <option value="$PROJECT_DIR$/src/main/java/chapter4/TransitiveClosure.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter4/Edge.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter4/EdgeWeightGraph.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chapter4/LazyPrimMST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chapter4/PrimMST.java" />
       </list>
     </option>
   </component>
@@ -369,7 +385,8 @@
       <workItem from="1566992219956" duration="1211000" />
       <workItem from="1567077097166" duration="6523000" />
       <workItem from="1567166822786" duration="3836000" />
-      <workItem from="1567425948661" duration="2521000" />
+      <workItem from="1567425948661" duration="2716000" />
+      <workItem from="1567510568086" duration="4838000" />
     </task>
     <task id="LOCAL-00001" summary="Start learn algs4">
       <created>1563456826704</created>
@@ -469,17 +486,24 @@
       <option name="project" value="LOCAL" />
       <updated>1567083877508</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="currently learning page 410">
+      <created>1567429837647</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1567429837647</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140978000" />
+    <option name="totallyTimeSpent" value="146011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.28796563" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.29154727" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.2679083" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -527,7 +551,8 @@
     <MESSAGE value="currently learning page 340" />
     <MESSAGE value="currently learning page 377" />
     <MESSAGE value="currently learning page 386" />
-    <option name="LAST_COMMIT_MESSAGE" value="currently learning page 386" />
+    <MESSAGE value="currently learning page 410" />
+    <option name="LAST_COMMIT_MESSAGE" value="currently learning page 410" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -542,66 +567,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/java1.8/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="329" column="16" selection-start-line="329" selection-start-column="16" selection-end-line="329" selection-end-column="16" />
-          <folding>
-            <element signature="e#10902#10903#0" expanded="true" />
-            <element signature="e#10948#10949#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter3/RBT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="265" column="30" lean-forward="true" selection-start-line="265" selection-start-column="30" selection-end-line="265" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
-            <element signature="e#1759#1760#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter3/FrequencyCounter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Tree/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="160" column="9" selection-start-line="160" selection-start-column="9" selection-end-line="160" selection-end-column="9" />
-          <folding>
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1433#1434#0" expanded="true" />
-            <element signature="e#1738#1739#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2152#2153#0" expanded="true" />
-            <element signature="e#2853#2854#0" expanded="true" />
-            <element signature="e#2895#2896#0" expanded="true" />
-            <element signature="e#3139#3140#0" expanded="true" />
-            <element signature="e#3182#3183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter3/BinarySearchST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1180">
-          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chapter2/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-320">
@@ -609,13 +574,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter2/MaxPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="61" column="24" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -981,34 +939,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter2/MaxPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4-data/tinyEWDAG.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4-data/tinyEWD.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
           <folding>
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
             <element signature="e#347#348#0" expanded="true" />
             <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/EdgeWeightGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        <state relative-caret-position="720">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
           <folding>
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
             <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#715#721#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/LazyPrimMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/PrimMST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4-data/tinyEWG.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
