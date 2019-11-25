@@ -2,10 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="949d274f-e87d-4197-b9c1-a2a98b9d696e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter4/Arbitrage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter4/BellmanFord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chapter4/CPM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_collection_0_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsonld_java_jsonld_java_0_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_hankcs_hanlp_portable_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_apisense_java_darts_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_cache_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_jena_jena_arq_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_jena_jena_base_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_jena_jena_core_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_jena_jena_iri_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_jena_jena_shaded_guava_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_jena_jena_tdb_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_thrift_libthrift_0_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_4_01.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AC/ACFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/ArrayTooImitate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/BaseNodeImitate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/BinTrieImitate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/ITrieImitate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/NodeByImitate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/TireTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HanLpLearning/EasySegment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HanLpLearning/ShortestPathCUT/WordNetGen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/KgRelated/JenaInference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LeetCode/SumOfTwoNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OtherTest/IOTest/RandomAccessFileTst.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OtherTest/VarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/OtherTest/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReinforcementLearning/Q_Learning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ReinforcementLearning/Tset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tire/DoubleArrayTrie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tire/DoubleArrayTrieImatate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tire/DoubleArrayTrieTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tire/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Util/IOutils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chapter5/StringSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/algo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chapter3/SequentialSearchST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chapter3/SequentialSearchST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tree/BiThTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tree/BiThTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tree/Thread_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Tree/Thread_Tree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/java/Tree/Binary_Tree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/java/Tree/Binary_Tree.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,44 +72,61 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/Arbitrage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/PrimMST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="37" column="41" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>in</find>
+      <find>CoreDictionaryPath</find>
+      <find>search</find>
+      <find>genr</find>
+      <find>generateWordNet</find>
+      <find>getSearc</find>
+      <find>trie</find>
+      <find>charset</find>
+      <find>outer</find>
       <find>size</find>
+      <find>nextCheckPos</find>
+      <find>pos</find>
+      <find>getC</find>
+      <find>Node</find>
+      <find>branch</find>
+      <find>getChild</find>
+      <find>TrieEntry</find>
+      <find>ARRAY_STATUS</find>
+      <find>status</find>
+      <find>prefix</find>
+      <find>add</find>
+      <find>getCHild</find>
+      <find>com</find>
+      <find>PARSE</find>
+      <find>first</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -61,35 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/chapter1/FixedCapacityStack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter1/LinkedStack.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter1/TwoSumFast.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter1/SumFast.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter1/UF.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter1/WeightQuickUF.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter2/Sort.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter2/MaxPQ.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter4/ST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter4/FrequencyCounter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter3/BinarySearchST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Tree/Thread_Tree.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Tree/BST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter3/RBT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter3/LinearProbingHashST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter1/Queue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter3/SparseVector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter3/SequentialSearchST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter3/SeparateChainingHashST.java" />
-        <option value="$PROJECT_DIR$/src/main/java/algs4/edu/princeton/cs/algs4/SparseVector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter1/Bag.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter4/Graph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter4/Search.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter4/Paths.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter4/DepthFirstSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter4/BreadthFirstSearch.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter4/CC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter4/TwoColor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chapter3/ST.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter4/SymbolGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter4/DiGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter4/DirectedDFS.java" />
@@ -112,6 +157,35 @@
         <option value="$PROJECT_DIR$/src/main/java/chapter4/CPM.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter4/BellmanFord.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapter4/Arbitrage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chapter5/StringSort.java" />
+        <option value="$PROJECT_DIR$/src/main/java/KgRelated/JenaInference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReinforcementLearning/Q_Learning.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ReinforcementLearning/Tset.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tire/Trie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tire/DoubleArrayTrie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Util/IOutils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HanLpLearning/WordNetGen.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/test1.txt" />
+        <option value="$PROJECT_DIR$/src/test/java/VarTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OtherTest/test1.txt" />
+        <option value="$PROJECT_DIR$/test2.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/HanLpLearning/ShortestPathCUT/WordNetGen.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tire/DoubleArrayTrieImatate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LeetCode/SumOfTwoNumber.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OtherTest/IOTest/RandomAccessFileTst.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AC/ACFind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HanLpLearning/ch2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Tire/DoubleArrayTrieTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HanLpLearning/EasySegment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/BaseNodeImatate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/ArrayTooImitate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OtherTest/VarTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/ITrieImitate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/NodeByImitate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/BinTrieImitate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/BaseNodeImitate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/TireTest.java" />
       </list>
     </option>
   </component>
@@ -133,19 +207,120 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="20" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-269" />
+    <option name="y" value="56" />
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="algo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="algo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="algo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="algo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="algo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="algo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="algo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="algo" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="algo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="algo" type="616d4139:PackageViewModuleNode" />
+              <item name="algs4" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="algo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="algo" type="616d4139:PackageViewModuleNode" />
+              <item name="HanLpLearning" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="algo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="algo" type="616d4139:PackageViewModuleNode" />
+              <item name="HanLpLearning" type="1f31426a:PackageElementNode" />
+              <item name="BinTrie" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="algo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="algo" type="616d4139:PackageViewModuleNode" />
+              <item name="Tire" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="algo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="algo" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+            </path>
+            <path>
+              <item name="algo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="algo" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="algo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="algo" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="hankcs.hanlp" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="algo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="algo" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="hankcs.hanlp" type="1f31426a:PackageElementNode" />
+              <item name="collection" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="algo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="algo" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="hankcs.hanlp" type="1f31426a:PackageElementNode" />
+              <item name="collection" type="1f31426a:PackageElementNode" />
+              <item name="trie" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="algo" type="58d84e3e:PackageViewProjectNode" />
+              <item name="algo" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+              <item name="com" type="1f31426a:PackageElementNode" />
+              <item name="hankcs.hanlp" type="1f31426a:PackageElementNode" />
+              <item name="collection" type="1f31426a:PackageElementNode" />
+              <item name="trie" type="1f31426a:PackageElementNode" />
+              <item name="bintrie" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -164,42 +339,102 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
             <path>
-              <item name="algo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="algo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="algo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="algo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="algo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="algo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
-              <item name="algo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="algo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.hankcs:hanlp:portable-1.7.5" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
-              <item name="algo" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="algo" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="chapter4" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.hankcs:hanlp:portable-1.7.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="hanlp-portable-1.7.5.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.hankcs:hanlp:portable-1.7.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="hanlp-portable-1.7.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hanlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.hankcs:hanlp:portable-1.7.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="hanlp-portable-1.7.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hanlp" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.hankcs:hanlp:portable-1.7.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="hanlp-portable-1.7.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hanlp" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="trie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.hankcs:hanlp:portable-1.7.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="hanlp-portable-1.7.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hanlp" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="trie" type="462c0819:PsiDirectoryNode" />
+              <item name="bintrie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.hankcs:hanlp:portable-1.7.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="hanlp-portable-1.7.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hanlp" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
+              <item name="trie" type="462c0819:PsiDirectoryNode" />
+              <item name="bintrie" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.hankcs:hanlp:portable-1.7.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="hanlp-portable-1.7.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.hankcs:hanlp:portable-1.7.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="hanlp-portable-1.7.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="pinyin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.hankcs:hanlp:portable-1.7.5" type="70bed36:NamedLibraryElementNode" />
+              <item name="hanlp-portable-1.7.5.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionary" type="462c0819:PsiDirectoryNode" />
+              <item name="place" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,7 +446,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/Tire" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -220,6 +455,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wang\algo\src\main\java\Tire" />
       <recent name="D:\wang\algo\src\main\java" />
     </key>
   </component>
@@ -235,13 +471,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SeparateChainingHashST">
-    <configuration name="RBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.RBT" />
+  <component name="RunManager" selected="Application.DoubleArrayTrieTest">
+    <configuration name="ACFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AC.ACFind" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="AC.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,12 +485,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeparateChainingHashST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter3.SeparateChainingHashST" />
+    <configuration name="DoubleArrayTrieTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tire.DoubleArrayTrieTest" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter3.*" />
+          <option name="PATTERN" value="Tire.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -262,12 +498,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter2.Sort" />
+    <configuration name="EasySegment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HanLpLearning.EasySegment" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter2.*" />
+          <option name="PATTERN" value="HanLpLearning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -275,12 +511,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparseVector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.princeton.cs.algs4.SparseVector" />
+    <configuration name="TireTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HanLpLearning.BinTrie.TireTest" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.princeton.cs.algs4.*" />
+          <option name="PATTERN" value="HanLpLearning.BinTrie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,12 +524,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread_Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.Thread_Tree" />
+    <configuration name="VarTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OtherTest.VarTest" />
       <module name="algo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.*" />
+          <option name="PATTERN" value="OtherTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,11 +539,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SeparateChainingHashST" />
-        <item itemvalue="Application.SparseVector" />
-        <item itemvalue="Application.RBT" />
-        <item itemvalue="Application.Thread_Tree" />
-        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.DoubleArrayTrieTest" />
+        <item itemvalue="Application.TireTest" />
+        <item itemvalue="Application.VarTest" />
+        <item itemvalue="Application.EasySegment" />
+        <item itemvalue="Application.ACFind" />
       </list>
     </recent_temporary>
   </component>
@@ -356,7 +592,32 @@
       <workItem from="1567595659271" duration="5354000" />
       <workItem from="1567683403328" duration="4376000" />
       <workItem from="1567773176035" duration="2674000" />
-      <workItem from="1568116857952" duration="3873000" />
+      <workItem from="1568116857952" duration="4112000" />
+      <workItem from="1568204174030" duration="2827000" />
+      <workItem from="1568286327511" duration="1611000" />
+      <workItem from="1568636841937" duration="360000" />
+      <workItem from="1568809113369" duration="3338000" />
+      <workItem from="1568895290948" duration="4577000" />
+      <workItem from="1568982944345" duration="1198000" />
+      <workItem from="1569239208036" duration="706000" />
+      <workItem from="1569411018059" duration="687000" />
+      <workItem from="1569503326523" duration="773000" />
+      <workItem from="1572348340160" duration="5137000" />
+      <workItem from="1572520469086" duration="8322000" />
+      <workItem from="1572607828088" duration="4482000" />
+      <workItem from="1572865276466" duration="7906000" />
+      <workItem from="1572954227831" duration="5858000" />
+      <workItem from="1573124867697" duration="8784000" />
+      <workItem from="1573212157160" duration="5813000" />
+      <workItem from="1573472993674" duration="203000" />
+      <workItem from="1573557133425" duration="5247000" />
+      <workItem from="1573646986102" duration="2391000" />
+      <workItem from="1573731448784" duration="5040000" />
+      <workItem from="1574075399755" duration="1251000" />
+      <workItem from="1574163573826" duration="6695000" />
+      <workItem from="1574334495952" duration="6381000" />
+      <workItem from="1574422328706" duration="6067000" />
+      <workItem from="1574681485134" duration="6794000" />
     </task>
     <task id="LOCAL-00001" summary="Start learn algs4">
       <created>1563456826704</created>
@@ -484,17 +745,40 @@
       <option name="project" value="LOCAL" />
       <updated>1567688329041</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="currently learning page 460">
+      <created>1568122028046</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1568122028046</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="VarTest_resourceTest - 2019.10.31 at 20h 49m 32s.xml">
+      <configuration name="VarTest.resourceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VarTest_resourceTest - 2019.10.31 at 20h 50m 07s.xml">
+      <configuration name="VarTest.resourceTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162388000" />
+    <option name="totallyTimeSpent" value="265075000" />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="20" width="1400" height="820" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.3216418" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498998" visible="true" weight="0.23710601" />
       <window_info id="Structure" order="1" sideWeight="0.501002" side_tool="true" weight="0.2679083" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -502,27 +786,27 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32839838" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39838493" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34051144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27860028" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3512786" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32974428" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.279476" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.27860028" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32839838" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.20457605" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.3295129" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven" order="8" weight="0.3295129" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +830,8 @@
     <MESSAGE value="currently learning page 417" />
     <MESSAGE value="currently learning page 434" />
     <MESSAGE value="currently learning page 455" />
-    <option name="LAST_COMMIT_MESSAGE" value="currently learning page 455" />
+    <MESSAGE value="currently learning page 460" />
+    <option name="LAST_COMMIT_MESSAGE" value="currently learning page 460" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -557,457 +842,504 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/algs4/edu/princeton/cs/algs4/IndexMinPQ.java</url>
+          <line>337</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/OtherTest/VarTest.java</url>
+          <line>89</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/OtherTest/VarTest.java</url>
+          <line>118</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tire/DoubleArrayTrie.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LeetCode/SumOfTwoNumber.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/HanLpLearning/EasySegment.java</url>
+          <line>152</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tire/DoubleArrayTrieTest.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Tire/DoubleArrayTrieTest.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4/edu/princeton/cs/algs4/SequentialSearchST.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/dictionary/CoreDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="163" column="93" lean-forward="true" selection-start-line="163" selection-start-column="7" selection-end-line="163" selection-end-column="93" />
+        <state relative-caret-position="122">
+          <caret line="33" column="60" selection-start-line="33" selection-start-column="60" selection-end-line="33" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1072#1083#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter3/SequentialSearchST.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/seg/common/WordNet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-394">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        <state relative-caret-position="118">
+          <caret line="325" column="28" selection-start-line="325" selection-start-column="28" selection-end-line="325" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#10639#10640#0" expanded="true" />
+            <element signature="e#10670#10671#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/seg/WordBasedSegment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="244" column="27" selection-start-line="244" selection-start-column="27" selection-end-line="244" selection-end-column="27" />
+          <folding>
+            <element signature="e#8924#8925#0" expanded="true" />
+            <element signature="e#8964#8965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/seg/Dijkstra/DijkstraSegment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/seg/common/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="174" column="11" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1.8/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="666" selection-start-line="666" selection-end-line="666" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1.8/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/utility/MathUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1531">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/recognition/nr/PersonRecognition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="58" column="31" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/HanLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/collection/trie/datrie/MutableDoubleArrayTrie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4115">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LeetCode/SumOfTwoNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/utility/Predefine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2251">
+          <caret line="137" column="31" selection-start-line="137" selection-start-column="31" selection-end-line="137" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/utility/TextUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="364" column="22" selection-start-line="364" selection-start-column="22" selection-end-line="364" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/utility/SentencesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2020">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/utility/LexiconUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-794">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OtherTest/IOTest/RandomAccessFileTst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter3/SeparateChainingHashST.java">
+    <entry file="jar://D:/java1.8/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1.8/src.zip!/java/io/DataOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/collection/trie/bintrie/_EmptyValueArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/collection/trie/bintrie/_ValueArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HanLpLearning/ShortestPathCUT/WordNetGen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#890#907#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AC/ACFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2690">
+          <caret line="155" column="41" selection-start-line="155" selection-start-column="41" selection-end-line="155" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4625#4626#0" expanded="true" />
+            <element signature="e#4668#4669#0" expanded="true" />
+            <element signature="e#4957#4958#0" expanded="true" />
+            <element signature="e#5005#5006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/corpus/io/IOUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="763" column="23" selection-start-line="763" selection-start-column="23" selection-end-line="763" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1.8/src.zip!/java/util/TreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="110" column="13" selection-start-line="110" selection-start-column="13" selection-end-line="110" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tire/DoubleArrayTrie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="357" column="42" lean-forward="true" selection-start-line="357" selection-start-column="42" selection-end-line="357" selection-end-column="42" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#4335#4341#0" expanded="true" />
+            <element signature="e#5678#5679#0" expanded="true" />
+            <element signature="e#5726#5727#0" expanded="true" />
+            <element signature="e#6204#6210#0" expanded="true" />
+            <element signature="e#7864#7865#0" expanded="true" />
+            <element signature="e#7910#7911#0" expanded="true" />
+            <element signature="e#8116#8125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java1.8/src.zip!/java/io/Externalizable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="12" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/algs4/edu/princeton/cs/algs4/Bag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="118" column="44" lean-forward="true" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="44" />
+        <state relative-caret-position="238">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4-data/1Mints.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4/edu/princeton/cs/algs4/DepthFirstPaths.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/Paths.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4/edu/princeton/cs/algs4/DijkstraSP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-3242">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4/edu/princeton/cs/algs4/IndexMinPQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="259" column="20" selection-start-line="259" selection-start-column="20" selection-end-line="259" selection-end-column="20" />
           <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
+            <element signature="e#10019#10020#0" expanded="true" />
+            <element signature="e#10080#10081#0" expanded="true" />
+            <element signature="e#12431#12439#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4-data/tinyCG.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="1" selection-start-line="2" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/TwoColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4-data/tinyG.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4/edu/princeton/cs/algs4/ST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2200">
-          <caret line="123" column="19" selection-start-line="123" selection-start-column="15" selection-end-line="123" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Bag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/Evaluate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="44" column="17" lean-forward="true" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/SumFast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter3/ST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/BreadthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#434#443#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/Search.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/SymbolGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/CC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/DepthFirstSearch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/KosarajuSCC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/DepthFirstOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4-data/tinyDG.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/DiGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#578#579#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/DirectedCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/DirectedDFS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-          <folding>
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter2/MaxPQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="61" column="24" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4-data/tinyEWDAG.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/LazyPrimMST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/EdgeWeightGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding>
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#648#649#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter1/UF.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/algs4/edu/princeton/cs/algs4/IndexMaxPQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-880">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4-data/tinyEWG.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/TransitiveClosure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#336#337#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4/edu/princeton/cs/algs4/Topological.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325">
-          <caret line="84" column="42" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/Topological.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4-data/tinyEWD.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4/edu/princeton/cs/algs4/EdgeWeightedDigraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="159" column="16" selection-start-line="159" selection-start-column="16" selection-end-line="159" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/DirectedEdgeWeightGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#726#740#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/SPT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-          <folding>
-            <element signature="e#1255#1269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/CPM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/DijkstraAllPairsSP.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/HanLpLearning/EasySegment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-          <folding>
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/algs4-data/jobsPC.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/KruskalMST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="389">
+          <caret line="152" column="66" selection-start-line="152" selection-start-column="66" selection-end-line="152" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/DirectedEdge.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/collection/trie/bintrie/util/ArrayTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
+        <state relative-caret-position="403">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/BellmanFord.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/OtherTest/VarTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="61" column="8" selection-start-line="61" selection-start-column="8" selection-end-line="61" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1393#1394#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/DijkstraSP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="-460">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/AcyclicSP.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tire/Trie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        <state relative-caret-position="1800">
+          <caret line="121" column="19" selection-start-line="121" selection-start-column="19" selection-end-line="121" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#475#476#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/collection/trie/ITrie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/BinTrieTest.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/collection/trie/bintrie/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/collection/trie/bintrie/BaseNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="139" column="18" selection-start-line="139" selection-start-column="15" selection-end-line="139" selection-end-column="18" />
+          <folding>
+            <element signature="e#2882#2883#0" expanded="true" />
+            <element signature="e#2931#2932#0" expanded="true" />
+            <element signature="e#6300#6301#0" expanded="true" />
+            <element signature="e#6341#6342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/NodeByImitate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="53" column="23" lean-forward="true" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/ArrayTooImitate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/ITrieImitate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/collection/AhoCorasick/AhoCorasickDoubleArrayTrie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="338" column="13" selection-start-line="338" selection-start-column="13" selection-end-line="338" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/hankcs/hanlp/portable-1.7.5/hanlp-portable-1.7.5-sources.jar!/com/hankcs/hanlp/collection/trie/bintrie/BinTrie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1282">
+          <caret line="640" column="32" selection-start-line="640" selection-start-column="32" selection-end-line="640" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5721#5743#0" expanded="true" />
+            <element signature="e#8841#8842#0" expanded="true" />
+            <element signature="e#8872#8873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/TireTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/Arbitrage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/BinTrieImitate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
+        <state relative-caret-position="203">
+          <caret line="86" column="43" selection-end-line="131" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2227#2228#0" expanded="true" />
+            <element signature="e#2258#2259#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chapter4/PrimMST.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/HanLpLearning/BinTrie/BaseNodeImitate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="37" column="41" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="41" />
+        <state relative-caret-position="508">
+          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2268#2269#0" expanded="true" />
+            <element signature="e#2313#2314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tire/DoubleArrayTrieImatate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="257" column="33" lean-forward="true" selection-start-line="257" selection-start-column="33" selection-end-line="257" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1868#1874#0" expanded="true" />
+            <element signature="e#5632#5638#0" expanded="true" />
+            <element signature="e#6409#6410#0" expanded="true" />
+            <element signature="e#6461#6462#0" expanded="true" />
+            <element signature="e#6772#6781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Tire/DoubleArrayTrieTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

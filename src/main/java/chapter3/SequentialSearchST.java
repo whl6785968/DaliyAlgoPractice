@@ -71,7 +71,7 @@ public class SequentialSearchST<Key,Value> {
 //    }
 //
 //    public class ListIterator implements Iterator<Key> {
-//        private Node current = first;
+//        private NodeByImitate current = first;
 //
 //        public boolean hasNext() {
 //            return current == null;
